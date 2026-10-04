@@ -1,0 +1,25 @@
+# ---- Secrets (NEVER commit these) ----
+.env
+*.env
+!.env.example
+
+# ---- Python ----
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# ---- Uploaded resumes (private files) ----
+backend/uploads/resumes/*
+!backend/uploads/resumes/.gitkeep
+
+# ---- Node / React ----
+node_modules/
+dist/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.db
